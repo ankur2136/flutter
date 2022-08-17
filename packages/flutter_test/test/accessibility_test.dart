@@ -74,7 +74,7 @@ void main() {
         );
         await expectLater(tester, meetsGuideline(textContrastGuideline));
         handle.dispose();
-      });
+    });
 
     testWidgets('white text on black background - Text Widget - direct style',
         (WidgetTester tester) async {
